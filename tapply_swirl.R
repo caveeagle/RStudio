@@ -1,0 +1,10 @@
+vapply(flags, unique, numeric(1))
+vapply(flags, class, numeric(1))
+sapply(flags, class)
+vapply(flags, class, character(1)
+?tapply
+table(flags$landmass)
+table(flags$animate)
+tapply(flags$animate, flags$landmass, mean)
+tapply(flags$population, flags$red, summary)
+tapply(flags$population, flags$landmass, summary)
